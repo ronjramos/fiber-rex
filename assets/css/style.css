@@ -1,0 +1,333 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  color:#292026;
+
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  font-family: 'Lato', sans-serif !important;
+}
+
+.navbar {
+  background-color:#000 !important;
+}
+
+.button-color {
+  background-color:#292026;
+  color:#fff;
+}
+
+.logo {
+  width:190px;
+}
+
+
+/*Home*/
+
+.dist {
+  font-family: 'Lobster', cursive;
+  font-size:1.5em;
+}
+
+
+#dist {
+  font-family: 'Lato', sans-serif;
+  font-size:3.5em;
+}
+
+.homebgimage {
+
+}
+
+
+.homebgimage2 {
+  min-width:100%;
+  min-height:30vh;
+  background: url(../images/bg2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.headertext {
+  min-height:30vh;
+}
+
+.p-color {
+  color:white;
+}
+
+.imghome {
+  width:100%;
+  border-radius:10px;
+}
+
+.distabout {
+  font-size:1.25em;
+}
+
+.icons {
+  background-color: rgba(50, 50, 50, 0.5);
+  border-radius: 10px;
+
+}
+
+.headings {
+  color:#292026;
+  font-family: 'Lato', sans-serif;
+  font-size:3em;
+}
+
+#vid {
+  border-radius: 10px;
+  width:100%;
+}
+
+.catalogheader {
+  color:#fff;
+  font-family: 'Lato', sans-serif;
+  font-size:3.5em;
+}
+
+/*End Home*/
+
+
+
+
+
+
+
+
+
+
+/*Contact Us*/
+
+
+.bgimage {
+  width:100%;
+  height:45vh;
+  background: url(../images/contactimage.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  opacity: 0.8;
+  background-color: black;
+}
+
+.bgimage h1,
+.bgimage h3 {
+  color:white;
+}
+
+.bgcontact {
+  color:black !important;
+}
+
+.map {
+  border-radius: 10px;
+}
+
+.border-left {
+  border-left:1px solid black;
+}
+/*End Contact Us*/
+
+
+/*Projects*/
+
+.projecttext {
+  padding-left: 20px;
+}
+
+/*End Projects*/
+
+
+
+/*Start Footer*/
+
+footer {
+  /*background:#343a40;*/
+
+}
+
+.footerlinks {
+  color:white;
+}
+
+.footercolor {
+  color:white !important;
+}
+
+
+/*End Footer*/
+
+
+/*Product Page*/
+.products {
+  min-height: 70vh;
+}
+
+.atc {
+  width:120px;
+}
+
+.atch {
+  width:120px;
+}
+
+.card-body {
+  padding: 0.5rem 1rem 0.75rem 1rem !important;
+}
+
+.card-img-top {
+ border-bottom:1px solid #eee;
+}
+
+.productlinks {
+  text-decoration: none;
+  color:#555;
+  font-weight: bold;
+  font-size: 1em;
+  font-family: 'Lato', sans-serif !important;
+}
+
+.productlinksall {
+  text-decoration: none;
+  color:#555;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: 'Lato', sans-serif !important;
+
+}
+
+.products-nav {
+  border-bottom: 1px solid #ebebeb;
+}
+
+h6 {
+  font-weight: bold;
+}
+
+.productsmalltext {
+  font-size:14px;
+  line-height: 19px;
+}
+
+
+
+/*End Product Page*/
+
+
+
+/*Footer*/
+
+.socials {
+  color:white !important;
+}
+
+.white-hr {
+  background-color:lightgrey;
+}
+
+h6 > a:hover {
+  text-decoration:none;
+  color:#888 !important;
+}
+
+
+hr {
+  margin-bottom: 0px !important;
+}
+
+.footerheaders {
+  color:#fff !important;
+}
+
+
+/*End Footer*/
+
+
+/*Navbar*/
+
+.nav-icons {
+  color: white;
+}
+
+.navbar-nav {
+  font-weight: bold;
+  font-size:1.1em;
+}
+
+.navbar {
+  background-color: #FAA519 !important;
+  /*background-color: #f79433 !important;*/
+}
+
+.nav-link {
+  color:#fff !important;
+}
+
+.nav-link:hover { 
+    /*color:rgba(0, 0, 0, 0.7) !important;*/
+    color:#2B2B2B !important;
+}
+
+
+/*End Navbar*/
+
+
+
+
+/*Media*/
+
+@media (max-width: 575.98px) { 
+  .promopb {
+    padding-bottom: 30px;
+  }
+  .contacttext > ul > li {
+    /*list-style: none;*/
+  }
+  .resizeimage {
+    height: 50vh !important;
+  }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .contacttext {
+    font-size:14px;
+  }
+
+  .distabout{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 150px;
+}
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .distabout {
+    padding-top:40px;
+  }
+}
+
+
+@media (min-width: 1200px) { 
+  .distabout {
+    padding-top:40px;
+  }
+}

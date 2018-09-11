@@ -1,0 +1,120 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/*Landing Page*/
+
+.mainlanding {
+  width:100vw;
+  height: 100vh;
+  background: url(../images/landingpage1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.heading1 {
+  font-size:6em;
+  color:#d9d9d9;
+  font-family: 'Lobster', cursive;
+
+
+}
+
+.heading2 {
+  font-family: 'Lato', sans-serif;
+  font-size:1.5em;
+  color:#d9d9d9;
+}
+.bgbox {
+  background:rgba(0, 0, 0, 0.3);
+  border-radius:15px;
+  color:#d9d9d9;
+}
+
+
+
+@media (max-width: 575.98px) { 
+    .dt {
+  width:335px;
+}
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .dt {
+  width:380px;
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .dt {
+  width:400px;
+}
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .dt {
+  width:400px;
+}
+}
+
+
+@media (min-width: 1200px) { 
+    .dt {
+  width:400px;
+}
+}
+
+/*Button*/
+
+.shop {
+  width:200px;
+  animation: pulse 1.5s infinite;
+}
+
+/*.banner {
+  width:100%;
+}*/
+
+/*End Button*/
+
+
+/*Change hue*/
+
+
+
+
+/*div {
+  animation: hue-rotate 10s linear infinite;
+}
+
+
+@keyframes hue-rotate {
+      from {
+        -webkit-filter: hue-rotate(0);
+        -moz-filter: hue-rotate(0);
+        -ms-filter: hue-rotate(0);
+        filter: hue-rotate(0);
+      }
+      to {
+        -webkit-filter: hue-rotate(360deg);
+        -moz-filter: hue-rotate(360deg);
+        -ms-filter: hue-rotate(360deg);
+        filter: hue-rotate(360deg);
+      }
+}
+*/
+/* End Change Hue*/
+
+
+
+
+
+
+/*End Landing Page*/
